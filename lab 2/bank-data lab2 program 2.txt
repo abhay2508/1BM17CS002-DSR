@@ -1,0 +1,6 @@
+getwd()
+software<-read.delim("bank-data.csv - bank-data.csv.csv",sep=',')
+software
+colnames(software)
+software<-cbind(software,price=c(100,200))
+colnames(software)
